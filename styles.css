@@ -35,7 +35,10 @@ h2 {
 }
 
 .author-text {
-   font-size: 22px; 
+    font-size: 22px; 
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px;
 }
 
 .container {
@@ -58,4 +61,22 @@ h2 {
 .author-box {
     border-top: 1px solid #808080;
     padding-top: 20px;
+}
+
+.other {
+    margin-bottom: 40px;
+}
+
+.author-box img {
+    height: 100px;
+    width: 100px;
+    /* make a circle */
+    border-radius: 50%;
+    float: left;
+}
+
+.blog-post img {
+    height: 150px;
+    /* maintain aspect ratio for the image */
+    width: auto;
 }
