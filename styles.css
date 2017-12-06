@@ -51,6 +51,8 @@ h2 {
     width: 75%;
     float: left;
     padding-right: 30px;
+    /* Needed to get the positioning for the date */
+    position: relative;
 }
 
 .other-posts {
@@ -79,4 +81,12 @@ h2 {
     height: 150px;
     /* maintain aspect ratio for the image */
     width: auto;
+}
+
+.date {
+    /* Moves the date into the right position (as desired here) */
+    position: absolute;
+    /* Accounting for the margins/padding of others */
+    top: 10px;
+    right: 30px;
 }
